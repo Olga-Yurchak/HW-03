@@ -1,3 +1,5 @@
+####### СОРТИРОВКА #######
+
 def sort_by_insert(list_input):
     list_int = list_input
     for i in range(1, len(list_int)):
@@ -9,6 +11,7 @@ def sort_by_insert(list_input):
         list_int[idx] = x
     return list_int
 
+####### ДВОИЧНЫЙ ПОИСК НОМЕРА ПОЗИЦИИ #######
 
 def binary_search(array, element, left, right):
     if left > right:
